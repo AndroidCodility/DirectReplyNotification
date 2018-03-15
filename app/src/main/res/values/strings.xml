@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Direct Reply Notification</string>
+    <string name="applicant_name">Android Codility</string>
+    <string name="app_info">You might have seen this feature already in the very popular messaging app WhatsApp. Now we can directly reply to WhatsApp messages without even opening WhatsApp. So, here is a example for you to learn and implement for Direct Reply Notification in Android.</string>
+    <string name="show_notification">Show Notification</string>
+</resources>

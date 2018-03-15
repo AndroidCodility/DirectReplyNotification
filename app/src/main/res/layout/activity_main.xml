@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codility.directreplynotification.MainActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/applicant_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tvHeader"
+        android:background="@color/colorPrimary" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:padding="10dp"
+        android:text="@string/app_info"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_background"
+        android:onClick="showNotificationView"
+        android:text="@string/show_notification"
+        android:textColor="@android:color/white"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
